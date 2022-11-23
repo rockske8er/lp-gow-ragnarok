@@ -1,4 +1,5 @@
 import { Header } from '../components/Header'
+import { Game } from '../layouts/Game'
 import { Hero } from '../layouts/Hero'
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <>
       <Header />
       <Hero />
+      <Game />
     </>
   )
 }
