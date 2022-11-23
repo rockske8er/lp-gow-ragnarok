@@ -59,5 +59,22 @@ p{
   line-height: 160%;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 1rem;
+  height: 2rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #000201;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #3265ea;
+  border-radius: 1.4rem;
+}
 
 `
