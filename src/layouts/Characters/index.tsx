@@ -1,3 +1,6 @@
+import 'swiper/css'
+import 'swiper/css/free-mode'
+
 import Image from 'next/image'
 import { Heading } from '../../components/Heading'
 import { characters } from '../../utils/characters'
@@ -9,13 +12,11 @@ import axel from './../../assets/images/axel.png'
 
 import { Swiper, SwiperSlide } from 'swiper/react'
 
-import 'swiper/css/free-mode'
-
 // import required modules
 import { FreeMode } from 'swiper'
 
 // Import Swiper styles
-import 'swiper/css'
+
 import { CardCharacter } from '../../components/CardCharacter'
 
 export function Characters() {
@@ -40,7 +41,6 @@ export function Characters() {
             <Image src={axel} alt="" />
             <BoxFooter>
               <Image src={brand} alt="" />
-
               <span>Lançamento dia 09/11/2022</span>
             </BoxFooter>
           </BoxRight>
@@ -50,7 +50,7 @@ export function Characters() {
           slidesPerView={3}
           spaceBetween={20}
           freeMode={true}
-          className="s"
+          className="s-characters"
           modules={[FreeMode]}
         >
           {characters.map((item, index) => (
