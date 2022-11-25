@@ -1,6 +1,7 @@
 import { Header } from '../components/Header'
 import { Game } from '../layouts/Game'
 import { Hero } from '../layouts/Hero'
+import { Story } from '../layouts/Story'
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Header />
       <Hero />
       <Game />
+      <Story />
     </>
   )
 }
