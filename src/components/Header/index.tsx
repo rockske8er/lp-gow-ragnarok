@@ -4,7 +4,7 @@ import { Wrapper } from '../../layouts/Wrapper'
 
 import { Container, Platforms } from './styles'
 
-import brandGOW from './../../assets/images/logo.png'
+import brandGOW from './../../assets/images/logo.jpg'
 import brandSony from './../../assets/images/svgs/sony.svg'
 
 export function Header() {
