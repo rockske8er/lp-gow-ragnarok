@@ -6,7 +6,7 @@ export const Container = styled.div`
 
   .card {
     width: 100%;
-    max-height: 52rem;
+    max-height: 48rem;
     margin-bottom: 2.4rem;
     position: relative;
     display: flex;

@@ -5,6 +5,7 @@ export const Container = styled.section`
   padding-bottom: 10.3rem;
 
   background: url('bg-hero.jpg');
+  background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   height: 80rem;

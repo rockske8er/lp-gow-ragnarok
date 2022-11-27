@@ -12,10 +12,16 @@ export const Container = styled.header`
     align-items: center;
   }
 
-  .brand__sony {
-  }
+  @media (max-width: 560px) {
+    height: 7rem;
 
-  .brand__gow {
+    .brand__sony {
+      display: none;
+    }
+
+    .brand__gow {
+      max-width: 140px;
+    }
   }
 `
 
@@ -37,6 +43,12 @@ export const Platforms = styled.div`
       font-weight: 600;
       font-size: 1.4rem;
       line-height: 1.5rem;
+    }
+  }
+
+  @media (max-width: 560px) {
+    span {
+      display: none;
     }
   }
 `
