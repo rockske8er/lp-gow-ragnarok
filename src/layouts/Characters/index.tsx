@@ -47,9 +47,23 @@ export function Characters() {
         </Header>
 
         <Swiper
-          slidesPerView={3}
+          // slidesPerView={3}
           spaceBetween={20}
           freeMode={true}
+          breakpoints={{
+            560: {
+              slidesPerView: 1,
+              spaceBetween: 20,
+            },
+            991: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            1200: {
+              slidesPerView: 3,
+              spaceBetween: 20,
+            },
+          }}
           className="s-characters"
           modules={[FreeMode]}
         >

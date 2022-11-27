@@ -2,10 +2,15 @@ import styled from 'styled-components'
 
 export const Container = styled.section`
   width: 100%;
-  height: 18rem;
+  min-height: 18rem;
   display: flex;
   align-items: center;
   background-color: #090a0a;
+
+  @media (max-width: 560px) {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
 `
 
 export const GameInfo = styled.ul`
@@ -27,6 +32,28 @@ export const GameInfo = styled.ul`
       font-size: 1.6rem;
       line-height: 160%;
       margin-top: 1.2rem;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    flex-wrap: wrap;
+    gap: 3rem 0;
+
+    li {
+      width: 33.3%;
+    }
+  }
+
+  @media (max-width: 560px) {
+    height: auto;
+    li {
+      width: 50%;
+      justify-content: center;
+      align-items: center;
+
+      span {
+        max-width: 14.5rem;
+      }
     }
   }
 `
