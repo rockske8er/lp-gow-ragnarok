@@ -118,6 +118,7 @@ export const CallToAction = styled.div`
   }
 
   @media (max-width: 560px) {
+    justify-content: center;
     flex-direction: column;
   }
 `
