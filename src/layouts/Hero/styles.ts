@@ -15,6 +15,111 @@ export const Container = styled.section`
     align-items: flex-end;
     justify-content: space-between;
   }
+
+  @media (max-width: 1200px) {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    height: auto;
+    background-position-x: 30%;
+  }
+
+  @media (max-width: 991px) {
+    padding: 6rem 0;
+    background-size: cover;
+    background-position: center center;
+    > div {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  @media (max-width: 560px) {
+    padding: 4rem 0;
+  }
+`
+
+export const BoxLeft = styled.div`
+  width: 100%;
+  max-width: 78.2rem;
+
+  h1 {
+    margin-top: 2.4rem;
+    margin-bottom: 1.8rem;
+
+    @media (max-width: 1200px) {
+      font-size: 10rem;
+    }
+  }
+
+  p {
+    color: #fff;
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 140%;
+    margin-bottom: 4rem;
+  }
+
+  @media (max-width: 1200px) {
+  }
+
+  @media (max-width: 991px) {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+
+  @media (max-width: 560px) {
+    h1 {
+      font-size: 4rem;
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    p {
+      font-size: 1.6rem;
+      margin: 0 auto;
+      margin-bottom: 3rem;
+    }
+  }
+`
+
+export const CallToAction = styled.div`
+  display: flex;
+  strong {
+    color: #000;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.2rem;
+    background-color: #fff;
+    padding: 1.8rem 3.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.8rem 3.6rem;
+    background-color: #3265ea;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.2rem;
+  }
+
+  @media (max-width: 1200px) {
+    max-width: 64rem;
+    p {
+      font-size: 1.8rem;
+    }
+  }
+
+  @media (max-width: 991px) {
+    justify-content: center;
+  }
+
+  @media (max-width: 560px) {
+    flex-direction: column;
+  }
 `
 
 export const BoxRight = styled.div`
@@ -50,47 +155,28 @@ export const BoxRight = styled.div`
       left: 3.2rem;
     }
   }
-`
 
-export const BoxLeft = styled.div`
-  width: 100%;
-  max-width: 78.2rem;
-
-  h1 {
-    margin-top: 2.4rem;
-    margin-bottom: 1.8rem;
+  @media (max-width: 1200px) {
+    top: 0;
+    max-width: 35.3rem;
+    button {
+      max-height: 19.7rem;
+    }
   }
 
-  p {
-    color: #fff;
-    font-size: 2.2rem;
-    font-weight: 500;
-    line-height: 140%;
-    margin-bottom: 4rem;
+  @media (max-width: 991px) {
+    text-align: center;
+    button {
+      margin-bottom: 3rem;
+    }
   }
-`
-export const CallToAction = styled.div`
-  display: flex;
-  strong {
-    color: #000;
-    font-size: 2rem;
-    font-weight: 700;
-    line-height: 2.2rem;
-    background-color: #fff;
-    padding: 1.8rem 3.6rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1.8rem 3.6rem;
-    background-color: #3265ea;
-    font-size: 2rem;
-    font-weight: 700;
-    line-height: 2.2rem;
+
+  @media (max-width: 560px) {
+    max-width: 31rem;
+
+    button {
+      height: 17.7rem;
+    }
   }
 `
 
@@ -109,5 +195,20 @@ export const ClassificationAge = styled.div`
     font-size: 1.6rem;
     line-height: 1.7rem;
     max-width: 27.4rem;
+  }
+
+  @media (max-width: 991px) {
+    flex-direction: column;
+
+    p {
+      margin-left: 0;
+      margin-top: 2rem;
+    }
+  }
+
+  @media (max-width: 560px) {
+    p {
+      line-height: 2.4rem;
+    }
   }
 `

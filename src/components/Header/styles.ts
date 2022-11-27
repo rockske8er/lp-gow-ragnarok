@@ -13,14 +13,15 @@ export const Container = styled.header`
   }
 
   @media (max-width: 560px) {
-    height: 7rem;
-
+    height: 6rem;
     .brand__sony {
       display: none;
     }
 
     .brand__gow {
-      max-width: 140px;
+      img {
+        max-width: 140px;
+      }
     }
   }
 `

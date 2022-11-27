@@ -11,9 +11,13 @@ export function Header() {
   return (
     <Container>
       <Wrapper>
-        <Image className="brand__sony" src={brandSony} alt="logo sony" />
+        <div className="brand__sony">
+          <Image src={brandSony} alt="logo sony" />
+        </div>
 
-        <Image className="brand__sony" src={brandGOW} alt="logo sony" />
+        <div className="brand__gow">
+          <Image src={brandGOW} alt="logo sony" />
+        </div>
 
         <Platforms>
           <span>Disponivel para</span>
