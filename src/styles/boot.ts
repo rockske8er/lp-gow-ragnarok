@@ -27,6 +27,11 @@ export const Boot = createGlobalStyle`
     background-color: #000201;
   }
 
+  img{
+    display: block;
+    max-width: 100%;
+  }
+
   img,
   svg {
     display: block;

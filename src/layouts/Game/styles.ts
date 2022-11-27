@@ -7,6 +7,10 @@ export const Container = styled.section`
   align-items: center;
   background-color: #090a0a;
 
+  @media (max-width: 1200px) {
+    padding: 6rem 0;
+  }
+
   @media (max-width: 560px) {
     padding-top: 6rem;
     padding-bottom: 6rem;
