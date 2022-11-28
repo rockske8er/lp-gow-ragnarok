@@ -47,7 +47,7 @@ export function Characters() {
         </Header>
 
         <Swiper
-          // slidesPerView={3}
+          slidesPerView={3.5}
           spaceBetween={20}
           freeMode={true}
           breakpoints={{
