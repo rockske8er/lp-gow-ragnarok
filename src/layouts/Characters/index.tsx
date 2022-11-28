@@ -24,7 +24,7 @@ export function Characters() {
     <Container className="s-characters">
       <Wrapper>
         <Header>
-          <BoxLeft>
+          <BoxLeft data-aos="fade-right">
             <Heading title="Conheça os personagens" />
             <h2>
               Toda grande aventura é uma história esperando para ser contada
@@ -37,7 +37,7 @@ export function Characters() {
             </p>
           </BoxLeft>
 
-          <BoxRight>
+          <BoxRight data-aos="fade-left">
             <Image src={axel} alt="" />
             <BoxFooter>
               <Image src={brand} alt="" />
@@ -47,6 +47,7 @@ export function Characters() {
         </Header>
 
         <Swiper
+          data-aos="fade-up"
           spaceBetween={20}
           freeMode={true}
           breakpoints={{

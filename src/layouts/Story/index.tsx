@@ -10,7 +10,7 @@ export function Story() {
   return (
     <Container>
       <Wrapper>
-        <BoxLeft>
+        <BoxLeft data-aos="fade-right">
           <Heading title="Sony Interactive Entertainment" />
 
           <h2>Embarque com Kratos e Atreus em uma jornada épica</h2>
@@ -33,7 +33,7 @@ export function Story() {
             </p>
           </BoxFooter>
         </BoxLeft>
-        <BoxRight>
+        <BoxRight data-aos="fade-left">
           <Image src={kratoeatreus} alt={''} />
         </BoxRight>
       </Wrapper>

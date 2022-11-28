@@ -17,7 +17,7 @@ const Hero = () => {
   return (
     <Container>
       <Wrapper>
-        <BoxLeft>
+        <BoxLeft data-aos="fade-right">
           <Heading title="Lançamento dia 09/11/2022" />
           <h1>God of War Ragnarök</h1>
           <p>
@@ -32,7 +32,7 @@ const Hero = () => {
             </a>
           </CallToAction>
         </BoxLeft>
-        <BoxRight>
+        <BoxRight data-aos="fade-up">
           <span>Assista o trailer</span>
 
           <button>

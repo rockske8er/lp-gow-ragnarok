@@ -7,7 +7,7 @@ export function Game() {
   return (
     <Container>
       <Wrapper>
-        <GameInfo>
+        <GameInfo data-aos="fade-up">
           {gameInfo.map((item, index) => (
             <li key={index}>
               <div className="icon">
