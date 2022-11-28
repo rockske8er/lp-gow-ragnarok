@@ -17,6 +17,7 @@ export default function Document() {
         />
 
         <link rel="shortcut icon" href="/icon.png" type="image/png" />
+        <title>God of war - Ragnarok</title>
       </Head>
       <body>
         <Main />
