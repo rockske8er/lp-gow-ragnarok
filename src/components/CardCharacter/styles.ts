@@ -15,7 +15,10 @@ export const Container = styled.div`
     overflow: hidden;
 
     img {
+      height: 100%;
+      width: 100%;
       transition: transform 0.3s ease;
+      object-fit: cover;
     }
 
     button {
@@ -28,6 +31,10 @@ export const Container = styled.div`
       bottom: 0;
       opacity: 0;
       transition: all 0.3s ease;
+    }
+
+    @media (max-width: 991px) {
+      max-height: 44rem;
     }
   }
 

@@ -15,6 +15,8 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Poppins:wght@400;500;600&display=swap"
           rel="stylesheet"
         />
+
+        <link rel="shortcut icon" href="/icon.png" type="image/png" />
       </Head>
       <body>
         <Main />
