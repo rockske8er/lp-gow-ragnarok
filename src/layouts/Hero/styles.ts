@@ -7,7 +7,7 @@ export const Container = styled.section`
   background: url('bg-hero.jpg');
   background-attachment: fixed;
   background-size: cover;
-  background-position: center center;
+  background-position: top center;
   background-repeat: no-repeat;
   height: 80rem;
 
