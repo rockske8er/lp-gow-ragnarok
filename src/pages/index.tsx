@@ -12,10 +12,10 @@ export default function Home() {
         <title>God of war - Ragnarok</title>
       </Head>
       <Header />
-      <Hero />
+      {/* <Hero />
       <Game />
       <Story />
-      <Characters />
+      <Characters /> */}
     </>
   )
 }
