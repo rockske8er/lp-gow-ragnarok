@@ -5,6 +5,7 @@ export const Container = styled.header`
   align-items: center;
   width: 100%;
   height: 8rem;
+  overflow: hidden;
 
   > div {
     display: flex;
