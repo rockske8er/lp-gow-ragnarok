@@ -1,9 +1,9 @@
 import Head from 'next/head'
 import { Header } from '../components/Header'
-// import { Characters } from '../layouts/Characters'
-// import { Game } from '../layouts/Game'
-// import { Hero } from '../layouts/Hero'
-// import { Story } from '../layouts/Story'
+import { Characters } from '../layouts/Characters'
+import { Game } from '../layouts/Game'
+import { Hero } from '../layouts/Hero'
+import { Story } from '../layouts/Story'
 
 export default function Home() {
   return (
@@ -12,10 +12,10 @@ export default function Home() {
         <title>God of war - Ragnarok</title>
       </Head>
       <Header />
-      {/* <Hero />
+      <Hero />
       <Game />
       <Story />
-      <Characters /> */}
+      <Characters />
     </>
   )
 }
